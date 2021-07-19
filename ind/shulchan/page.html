@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Judaistic101</title>
+	<link rel="stylesheet" href="../../styles/art-style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="/pics/favicon.ico"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<nav>
+		<div class="logo">Judaistic101</div>
+		<label for="btn" class="icon">
+			<i class="fa fa-bars"></i>
+		</label>
+		<input type="checkbox" id="btn">	
+		<ul>
+			<li><a href="../index1.html">Home</a></li>
+			<li>
+			  <label for="btn-1" class="show">Konten +</label>
+					<a href="#">Konten</a>
+					<input type="checkbox" id="btn-1">
+				<ul>
+					<li><a href="../pirkei/content.html">Pirkei Avot</a></li>
+					<li><a href="#">Shulchan Aruch</a></li>
+				</ul>	
+			</li>
+			<li>
+				<label for="btn-2" class="show">Bahasa +</label>
+					<a href="#">Bahasa</a>
+					<input type="checkbox" id="btn-2">
+				<ul class="lang">
+					<li><a href="../../ind/shulchan/page.html">Ind</a></li>
+					<li><a href="../../eng/shulchan/page.html">Eng</a></li>
+				</ul>
+			</li>
+			<li><a href="/ind/contacts.html">Kontak</a></li>
+		</ul>
+	</nav>	
+	<div id="wrapper">
+  			<div>
+      		<ul class="item3">Shulchan Aruch(Orach Chaim)
+      			<hr>
+      			<li><a href="chapters1.html">Chapter 1</a></li>
+      			<li><a href="chapters2.html">Chapter 2</a></li>
+      			<li><a href="chapters3.html">Chapter 3</a></li>
+      			<li><a href="chapters4.html">Chapter 4</a></li>
+      			<li><a href="chapters5.html">Chapter 5</a></li>
+      			<li><a href="chapters6.html">Chapter 6</a></li>
+      		</ul>      
+      	</div>    	
+  </div>
+</body>
+<script>
+	$('.icon').click(function(){
+		$('span').toggleClass("cancel");
+	});
+</script>
+</html>
