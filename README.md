@@ -2,8 +2,6 @@
 
 This website follows [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
-Commit message akan dicek menggunakan [husky and commit lint](https://theodorusclarence.com/library/husky-commitlint-prettier), jika convention salah, maka tidak bisa melakukan commit
-
 ### Format
 
 `<type>(optional scope): <description>`
@@ -30,5 +28,3 @@ Type yang bisa digunakan adalah:
 Contoh labeling per page `feat(pre-event): add date label`
 
 \*Jika tidak ada scope, maka tidak perlu ditulis.
-
-Scope yang bisa digunakan:
