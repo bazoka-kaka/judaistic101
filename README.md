@@ -7,6 +7,8 @@ This website follows [Conventional Commits](https://www.conventionalcommits.org/
 `<type>(optional scope): <description>`
 Contoh: `feat(pre-event): add speakers section`
 
+Dev: https://judaistic101.netlify.app/
+
 ### 1. Type
 
 Type yang bisa digunakan adalah:
